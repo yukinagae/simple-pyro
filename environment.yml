@@ -1,7 +1,9 @@
 name: simple-pyro
 dependencies:
-- pip=9.0.1
+- pip=18.1
 - python=3.6.2
 - pip:
   - pyro-ppl==0.3.0
+  - ipywidgets # jupyter
+  - widgetsnbextension # jupyter
 
