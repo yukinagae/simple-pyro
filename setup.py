@@ -2,6 +2,7 @@ import codecs
 
 from setuptools import find_packages, setup
 
+
 install_requires = [
     'pyro-ppl',
 ]
@@ -24,4 +25,3 @@ setup(
     install_requires=install_requires,
     test_requires=test_requires,
 )
-

@@ -2,9 +2,9 @@ name: simple-pyro
 dependencies:
 - pip=18.1
 - python=3.6.2
+- flake8
 - pip:
   - pyro-ppl==0.3.0
   - arviz
   - ipywidgets # jupyter
   - widgetsnbextension # jupyter
-
